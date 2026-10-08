@@ -1,0 +1,47 @@
+[
+  {
+    "id": "wireless",
+    "number": "01",
+    "title": "Wireless networks & IoT",
+    "short": "Wireless & IoT",
+    "description": "Making wireless communication more efficient, adaptive, and useful in resource-constrained environments.",
+    "keywords": "LoRa · Backscatter · Wireless systems",
+    "long": "This direction investigates how devices share spectrum, coordinate transmissions, and communicate with limited energy. Work spans fine-grained channel access, LoRa and backscatter communication, mobile and vehicular networks, and learning-based resource management.",
+    "tags": [
+      "LoRa & backscatter",
+      "Spectrum sharing",
+      "Resource allocation",
+      "Edge computing"
+    ]
+  },
+  {
+    "id": "sensing",
+    "number": "02",
+    "title": "Intelligent & ubiquitous sensing",
+    "short": "Intelligent sensing",
+    "description": "Turning light, vibration, and radio signals into practical ways to understand the physical world.",
+    "keywords": "Optical sensing · Health · Environment",
+    "long": "Everyday signals can reveal information that is difficult to observe directly. This research builds sensing systems for toothbrushing, liquid and food analysis, environmental monitoring, activity recognition, and plant health, combining physical models with signal processing and machine learning.",
+    "tags": [
+      "Optical sensing",
+      "Health & well-being",
+      "Activity recognition",
+      "Environmental sensing"
+    ]
+  },
+  {
+    "id": "interaction",
+    "number": "03",
+    "title": "Human-centered computing",
+    "short": "Human–AI & interaction",
+    "description": "Designing accessible interfaces and AI systems that people can understand, guide, and use with confidence.",
+    "keywords": "Accessibility · Wearables · Human–AI",
+    "long": "This work examines how people interact with small devices and intelligent systems. Projects include assistive headphones, wearable text entry, music understanding, and interactive AI tools for meeting summaries and contract review. The emphasis is on useful capabilities, transparent interaction, and user control.",
+    "tags": [
+      "Accessibility",
+      "Human–AI collaboration",
+      "Wearable input",
+      "Trust calibration"
+    ]
+  }
+]

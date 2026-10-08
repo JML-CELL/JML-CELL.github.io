@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="{{ site.Language.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>{{ if .IsHome }}{{ partial "t.html" "Lu Wang · Shenzhen University" }}{{ else }}{{ .Title }} {{ partial "t.html" "· Lu Wang" }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Params.summary }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">{{ if eq .Language.Lang "en" }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">{{ end }}{{ end }}
+  <meta property="og:title" content="{{ if .IsHome }}{{ partial "t.html" "Lu Wang · Shenzhen University" }}{{ else }}{{ .Title }}{{ end }}">
+  <meta property="og:description" content="{{ with .Params.summary }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <meta property="og:type" content="{{ if and (eq .Section "publication") .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <link rel="icon" type="image/svg+xml" href="{{ "images/favicon.svg" | relURL }}">
+  {{ $css := resources.Get "css/site.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  {{ $js := resources.Get "js/site.js" | minify | fingerprint }}
+  <script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+  {{ if and (eq .Section "publication") .IsPage }}
+  <meta name="citation_title" content="{{ .Title }}">
+  {{ range .Params.authors }}<meta name="citation_author" content="{{ . }}">{{ end }}
+  <meta name="citation_publication_date" content="{{ if eq .Params.date_precision 1 }}{{ .Date.Format "2006" }}{{ else if eq .Params.date_precision 2 }}{{ .Date.Format "2006/01" }}{{ else }}{{ .Date.Format "2006/01/02" }}{{ end }}">
+  {{ with .Params.doi }}<meta name="citation_doi" content="{{ . }}">{{ end }}
+  {{ with .Params.url_pdf }}<meta name="citation_pdf_url" content="{{ . | absURL }}">{{ end }}
+  {{ if eq .Params.publication_kind "Journal" }}<meta name="citation_journal_title" content="{{ .Params.publication }}">{{ else if in (slice "Conference" "Poster / Demo") .Params.publication_kind }}<meta name="citation_conference_title" content="{{ .Params.publication }}">{{ end }}
+  {{ end }}
+</head>
+<body>
+  <a class="skip-link" href="#main">{{ partial "t.html" "Skip to content" }}</a>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="{{ site.Home.RelPermalink }}" aria-label="{{ partial "t.html" "Lu Wang, home" }}"><span class="brand-mark" aria-hidden="true">LW<span>.</span></span><span class="brand-text">Lu Wang<span>{{ partial "t.html" "SHENZHEN UNIVERSITY" }}</span></span></a>
+      <nav id="site-nav" class="site-nav" aria-label="{{ partial "t.html" "Main navigation" }}">
+        {{ $current := . }}{{ range site.Menus.main }}{{ $target := $current.Site.GetPage .Page.Path }}<a href="{{ $target.RelPermalink }}"{{ if or (and ($target.IsHome) $current.IsHome) (and (not $target.IsHome) (hasPrefix $current.RelPermalink ($target.RelPermalink))) }} aria-current="page"{{ end }}>{{ partial "t.html" .Name }}</a>{{ end }}
+      </nav>
+      <div class="header-controls">{{ range .Translations }}<a class="language-switch" href="{{ .RelPermalink }}" lang="{{ .Language.LanguageCode }}" hreflang="{{ .Language.LanguageCode }}" aria-label="{{ if eq .Language.Lang "zh" }}切换为中文{{ else }}Switch to English{{ end }}"><span class="language-icon" aria-hidden="true">◎</span>{{ if eq .Language.Lang "zh" }}中文{{ else }}English{{ end }}</a>{{ end }}
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span>{{ partial "t.html" "Menu" }}</span><span class="menu-bars" aria-hidden="true"></span></button></div>
+    </div>
+  </header>
+  <main id="main">{{ block "main" . }}{{ end }}</main>
+  <footer class="site-footer"><div class="container footer-inner"><div><a href="{{ site.Home.RelPermalink }}" class="footer-name">Lu Wang <span lang="zh">王璐</span></a><p>{{ partial "t.html" "Wireless networks. Intelligent sensing. Human–AI interaction." }}</p></div><div class="footer-right"><a href="mailto:wanglu@szu.edu.cn">wanglu@szu.edu.cn ↗</a><p>© {{ now.Year }} {{ partial "t.html" "Lu Wang · Shenzhen University" }}</p></div></div></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

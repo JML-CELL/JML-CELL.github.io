@@ -1,0 +1,7 @@
+{{ $src := .src }}{{ $alt := .alt }}
+{{ with resources.Get (strings.TrimPrefix "/" $src) }}
+  {{ $small := .Fit "640x640 webp q82" }}{{ $large := .Fit "1400x1400 webp q86" }}
+  <img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="{{ if eq $.size "card" }}(max-width: 640px) 100vw, (max-width: 1000px) 50vw, 380px{{ else }}(max-width: 640px) 100vw, 760px{{ end }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+{{ else }}
+  <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+{{ end }}

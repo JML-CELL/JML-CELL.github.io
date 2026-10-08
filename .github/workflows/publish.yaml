@@ -1,7 +1,7 @@
 name: Deploy website to GitHub Pages
 
 env:
-  WC_HUGO_VERSION: '0.135.0'
+  WC_HUGO_VERSION: '0.150.0'
 
 on:
   # Trigger the workflow every time you push to the `main` branch
@@ -51,6 +51,8 @@ jobs:
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Validate content and internal links
+        run: python scripts/check_site.py --public public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

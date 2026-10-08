@@ -1,0 +1,5 @@
+{{- $text := . -}}
+{{- if eq site.Language.Lang "zh" -}}
+  {{- if isset site.Data.translations $text -}}{{- $text = index site.Data.translations $text -}}{{- end -}}
+{{- end -}}
+{{- return $text -}}

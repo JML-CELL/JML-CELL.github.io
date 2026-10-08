@@ -1,0 +1,3 @@
+{{- $data := site.Data.research -}}
+{{- if eq site.Language.Lang "zh" -}}{{- $data = site.Data.research_zh -}}{{- end -}}
+{{- return $data -}}

@@ -1,0 +1,473 @@
+[
+  {
+    "slug": "iov-resource-allocation",
+    "pages": 9,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "chameleon",
+    "pages": 8,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "music-reasoning",
+    "pages": 8,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "lit",
+    "pages": 17,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "lisee",
+    "pages": 31,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "muscle-mind",
+    "pages": 2,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "lili",
+    "pages": 13,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "vi-liquid",
+    "pages": 14,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "hrtf-transfer",
+    "pages": 5,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "g-fall",
+    "pages": 9,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "taprint",
+    "pages": 16,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "oinput",
+    "pages": 8,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "mm-humidity",
+    "pages": 8,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "side",
+    "pages": 10,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "vitype",
+    "pages": 9,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "virtual-keyboard-demo",
+    "pages": 2,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "wi-fire",
+    "pages": 6,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "floc",
+    "pages": 6,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "hash-division",
+    "pages": 6,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "adjacent-channel",
+    "pages": 6,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": false,
+    "manual_review": "Title, full author list and venue checked visually on first PDF page."
+  },
+  {
+    "slug": "combined-keystrokes",
+    "pages": 6,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "rateless-sampleless",
+    "pages": 9,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "wi-humidity",
+    "pages": 11,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "piros",
+    "pages": 2,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "smart-pilot-recovery",
+    "pages": 6,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "smart-pilot-conference",
+    "pages": 12,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": false,
+    "manual_review": "Title, full author list and venue checked visually on first PDF page."
+  },
+  {
+    "slug": "fc-mac",
+    "pages": 6,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "nomloc",
+    "pages": 10,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "feedback-rateless",
+    "pages": 5,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "pilot-localization",
+    "pages": 10,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "fcm",
+    "pages": 5,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "fast",
+    "pages": 5,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "fimd",
+    "pages": 7,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "attachment-learning-conference",
+    "pages": 8,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "beverage-monitoring",
+    "pages": 18,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "6g-subnetworks",
+    "pages": 15,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "x509-survey",
+    "pages": 40,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "overlapping-lpwan",
+    "pages": 20,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "floor-vibration-falls",
+    "pages": 20,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "backscatter-sensing",
+    "pages": 19,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "infit",
+    "pages": 15,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "portable-liquid",
+    "pages": 18,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "ml-backscatter",
+    "pages": 6,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "cloud-network-mec",
+    "pages": 16,
+    "title_token_match": 1,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "power-saving-input",
+    "pages": 16,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "on-body-typing",
+    "pages": 13,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "uav-mmwave",
+    "pages": 8,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "icast",
+    "pages": 13,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "vlc-hardware",
+    "pages": 12,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "cnn-energy",
+    "pages": 7,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "mimo-interference",
+    "pages": 24,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "uav-spectrum",
+    "pages": 7,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "clot",
+    "pages": 12,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "concurrent-cancellation",
+    "pages": 15,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "proactive-son",
+    "pages": 8,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "narrowband-iot",
+    "pages": 14,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "aie-vlc",
+    "pages": 9,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "sampleless-wifi",
+    "pages": 10,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "smart-pilot-journal",
+    "pages": 12,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "frequency-crahns",
+    "pages": 10,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "attachment-learning-journal",
+    "pages": 10,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "hidden-exposed-terminals",
+    "pages": 10,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "attached-rts",
+    "pages": 11,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "hjam-journal",
+    "pages": 12,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  },
+  {
+    "slug": "meetsumaid",
+    "pages": 16,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "beyond-vision",
+    "pages": 9,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": false,
+    "author_present": true
+  },
+  {
+    "slug": "pit",
+    "pages": 13,
+    "title_token_match": 1.0,
+    "doi_in_first_pages": true,
+    "author_present": true
+  }
+]

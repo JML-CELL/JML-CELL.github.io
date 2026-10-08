@@ -1,0 +1,3 @@
+{{ define "main" }}
+<section class="container author-profile"><a class="back-link" href="{{ "people/" | relLangURL }}">{{ partial "t.html" "← Meet the team" }}</a><div class="author-profile-grid">{{ partial "person-image.html" (dict "person" .) }}<div><p class="eyebrow">{{ partial "t.html" "SHENZHEN UNIVERSITY" }}</p><h1>{{ .Title }}</h1><p class="hero-role">{{ partial "person-role.html" .Params.role }}</p>{{ if .Params.superuser }}<div class="prose">{{ .Content }}</div><a class="button primary" href="{{ "about/" | relLangURL }}">{{ partial "t.html" "Full biography →" }}</a>{{ end }}</div></div></section>
+{{ end }}

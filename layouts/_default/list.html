@@ -1,0 +1,1 @@
+{{ define "main" }}<section class="page-intro container"><p class="eyebrow">{{ partial "t.html" "EXPLORE" }}</p><h1>{{ .Title }}</h1></section><div class="container section">{{ range .Pages }}<article class="index-item"><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2></article>{{ end }}</div>{{ end }}

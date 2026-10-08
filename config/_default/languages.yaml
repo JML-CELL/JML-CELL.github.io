@@ -1,22 +1,11 @@
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
-
-# Default language
 en:
-  languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  languageCode: en-US
+  languageName: English
+  weight: 1
+zh:
+  languageCode: zh-CN
+  languageName: 简体中文
+  weight: 2
+  title: 王璐 | 深圳大学
+  params:
+    description: 王璐，深圳大学计算机与软件学院教授。研究方向包括无线网络、物联网、智能感知、移动与可穿戴计算及人机交互。

@@ -1,0 +1,84 @@
+﻿slug,doi,source,evidence,english_body_words
+6g-subnetworks,10.1109/twc.2022.3207918,/papers/2023-6g-subnetworks.pdf,local paper abstract/introduction,88
+adjacent-channel,10.1109/icc.2016.7511468,/papers/2016-adjacent-channel.pdf,local paper abstract/introduction,87
+aie-vlc,10.1021/acsami.8b05950,/papers/2018-aie-vlc.pdf,local paper abstract/introduction,90
+attached-rts,10.1109/tpds.2012.228,/papers/2013-attached-rts.pdf,local paper abstract/introduction,97
+attachment-learning-conference,10.1109/icpads.2011.30,/papers/2011-attachment-learning-conference.pdf,local paper abstract/introduction,86
+attachment-learning-journal,10.1109/twc.2013.022013.120627,/papers/2013-attachment-learning-journal.pdf,local paper abstract/introduction,80
+attachment-transmission-book,10.1007/978-3-319-04909-0,https://link.springer.com/book/10.1007/978-3-319-04909-0,"publisher, author repository or institutional abstract",77
+backscatter-sensing,10.1016/j.jnca.2022.103518,/papers/2022-backscatter-sensing.pdf,local paper abstract/introduction,80
+beverage-monitoring,10.1109/tmc.2023.3279837,/papers/2024-beverage-monitoring.pdf,local paper abstract/introduction,85
+beyond-vision,10.24963/ijcai.2026/833,/papers/2026-beyond-vision.pdf,local paper abstract/introduction,100
+ccm,10.1109/jiot.2026.3670433,https://github.com/SDUST-smartocean/CCM,"publisher, author repository or institutional abstract",81
+chameleon,10.1109/icpads63350.2024.00018,/papers/2024-chameleon.pdf,local paper abstract/introduction,99
+clot,10.1016/j.comcom.2018.07.021,/papers/2018-clot.pdf,local paper abstract/introduction,85
+cloud-network-mec,10.7544/issn1000-1239.2021.20201076,/papers/2021-cloud-network-mec.pdf,local paper abstract/introduction,82
+cnn-energy,10.1109/mwc.2019.1800321,/papers/2019-cnn-energy.pdf,local paper abstract/introduction,79
+coco-plus,10.1109/tmc.2026.3652201,https://www.researchwithrutgers.org/en/publications/coco-a-behavior-aware-cause-identification-framework-for-order-ca/,"publisher, author repository or institutional abstract",93
+combined-keystrokes,10.1109/MSN.2016.9,/papers/2016-combined-keystrokes.pdf,local paper abstract/introduction,83
+concurrent-cancellation,10.1109/tvt.2018.2853716,/papers/2018-concurrent-cancellation.pdf,local paper abstract/introduction,89
+contractmind,10.1016/j.ijhcs.2024.103411,https://www.sciencedirect.com/science/article/abs/pii/S1071581924001940,"publisher, author repository or institutional abstract",96
+fast,10.1109/icc.2012.6364544,/papers/2012-fast.pdf,local paper abstract/introduction,89
+fc-mac,10.1109/glocom.2014.7036807,/papers/2014-fc-mac.pdf,local paper abstract/introduction,86
+fcm,10.1109/glocom.2012.6503149,/papers/2012-fcm.pdf,local paper abstract/introduction,83
+fedeval,10.1145/3703631,https://doi.org/10.1145/3703631,scope/context only; no new numerical or detailed evaluation claims,89
+feedback-rateless,10.1109/icc.2013.6654803,/papers/2013-feedback-rateless.pdf,local paper abstract/introduction,85
+felt,10.1109/jiot.2026.3690483,https://doi.org/10.1109/jiot.2026.3690483,scope/context only; no new numerical or detailed evaluation claims,86
+fimd,10.1109/icpads.2012.40,/papers/2012-fimd.pdf,local paper abstract/introduction,86
+floc,10.1109/icc.2017.7997098,/papers/2017-floc.pdf,local paper abstract/introduction,95
+floor-vibration-falls,10.1145/3519302,/papers/2023-floor-vibration-falls.pdf,local paper abstract/introduction,91
+frequency-crahns,10.1109/twc.2013.120413.130767,/papers/2014-frequency-crahns.pdf,local paper abstract/introduction,82
+g-fall,10.1109/sahcn.2019.8824827,/papers/2019-g-fall.pdf,local paper abstract/introduction,80
+hash-division,10.1109/glocom.2016.7841868,/papers/2016-hash-division.pdf,local paper abstract/introduction,85
+hidden-exposed-terminals,10.1109/twc.2012.092712.120628,/papers/2012-hidden-exposed-terminals.pdf,local paper abstract/introduction,77
+hjam-conference,10.1109/infcom.2012.6195510,https://doi.org/10.1109/infcom.2012.6195510,scope/context only; no new numerical or detailed evaluation claims,78
+hjam-journal,10.1109/tmc.2012.194,/papers/2013-hjam-journal.pdf,local paper abstract/introduction,79
+hrtf-transfer,10.21437/interspeech.2019-2558,/papers/2019-hrtf-transfer.pdf,local paper abstract/introduction,81
+icast,10.1109/jiot.2018.2872518,/papers/2019-icast.pdf,local paper abstract/introduction,78
+infit,10.1109/tmc.2022.3209656,/papers/2023-infit.pdf,local paper abstract/introduction,84
+iov-resource-allocation,10.1109/swc62898.2024.00268,/papers/2024-iov-resource-allocation.pdf,local paper abstract/introduction,91
+lili,10.1145/3447993.3483246,/papers/2021-lili.pdf,local paper abstract/introduction,80
+lisee,10.1145/3550282,/papers/2022-lisee.pdf,local paper abstract/introduction,100
+lit,10.1145/3570361.3613287,/papers/2023-lit.pdf,local paper abstract/introduction,101
+lora-btma,10.11896/jsjkx.240700203,https://www.jsjkx.com/EN/10.11896/jsjkx.240700203,scope/context only; no new numerical or detailed evaluation claims,86
+meetsumaid,10.1109/tmc.2026.3667272,/papers/2026-meetsumaid.pdf,local paper abstract/introduction,105
+mimo-interference,10.1109/comst.2019.2894160,/papers/2019-mimo-interference.pdf,local paper abstract/introduction,78
+ml-backscatter,10.1109/mnet.001.2100247,/papers/2021-ml-backscatter.pdf,local paper abstract/introduction,78
+mm-humidity,10.1109/ICPADS.2018.00036,/papers/2018-mm-humidity.pdf,local paper abstract/introduction,79
+mtxlstm,10.1109/tmc.2026.3653448,https://researchportal.northumbria.ac.uk/en/publications/mtxlstm-multi-task-learning-for-gesture-recognition-and-person-id/,"publisher, author repository or institutional abstract",76
+muscle-mind,10.1145/3485730.3492875,/papers/2021-muscle-mind.pdf,local paper abstract/introduction,85
+music-reasoning,10.5281/zenodo.14877281,/papers/2024-music-reasoning.pdf,local paper abstract/introduction,95
+narrowband-iot,10.1109/jiot.2017.2783374,/papers/2018-narrowband-iot.pdf,local paper abstract/introduction,80
+nomloc,10.1109/icdcs.2014.66,/papers/2014-nomloc.pdf,local paper abstract/introduction,84
+oinput,10.1109/ICPADS.2018.00126,/papers/2018-oinput.pdf,local paper abstract/introduction,87
+on-body-typing,10.1109/tmc.2019.2928549,/papers/2020-on-body-typing.pdf,local paper abstract/introduction,85
+optical-toothbrushing,10.1109/tmc.2024.3479455,https://doi.org/10.1109/tmc.2024.3479455,scope/context only; no new numerical or detailed evaluation claims,87
+overlapping-lpwan,10.1145/3546075,/papers/2022-overlapping-lpwan.pdf,local paper abstract/introduction,82
+pilot-localization,10.1109/icdcs.2013.49,/papers/2013-pilot-localization.pdf,local paper abstract/introduction,96
+piros,10.1109/icdcs.2015.103,/papers/2015-piros.pdf,local paper abstract/introduction,77
+pit,10.1145/3711875.3729124,/papers/2025-pit.pdf,local paper abstract/introduction,104
+portable-liquid,10.1109/tmc.2021.3121332,/papers/2023-portable-liquid.pdf,local paper abstract/introduction,85
+power-saving-input,10.1109/tmc.2020.2976007,/papers/2021-power-saving-input.pdf,local paper abstract/introduction,84
+proactive-son,10.1109/mwc.2018.1700420,/papers/2018-proactive-son.pdf,local paper abstract/introduction,80
+radarattn,10.1109/ton.2025.3627399,https://researchportal.northumbria.ac.uk/en/publications/radarattn-efficient-radar-based-human-activity-recognition-by-int/,"publisher, author repository or institutional abstract",79
+rateless-sampleless,10.1109/infocom.2016.7524424,/papers/2016-rateless-sampleless.pdf,local paper abstract/introduction,81
+sampleless-wifi,10.1109/tnet.2016.2643160,/papers/2017-sampleless-wifi.pdf,local paper abstract/introduction,76
+sdn-encryption,10.1016/j.comnet.2024.110537,https://doi.org/10.1016/j.comnet.2024.110537,scope/context only; no new numerical or detailed evaluation claims,81
+senlora,10.1145/3749522,https://doi.org/10.1145/3749522,"publisher, author repository or institutional abstract",108
+side,10.1109/icnp.2018.00043,/papers/2018-side.pdf,local paper abstract/introduction,85
+smart-pilot-conference,10.1109/icnp.2014.64,/papers/2014-smart-pilot-conference.pdf,local paper abstract/introduction,83
+smart-pilot-journal,10.1109/twc.2016.2542807,/papers/2016-smart-pilot-journal.pdf,local paper abstract/introduction,83
+smart-pilot-recovery,10.1109/iccw.2015.7247499,/papers/2015-smart-pilot-recovery.pdf,local paper abstract/introduction,81
+tagecho,10.1109/TMC.2026.3683550,https://scholars.cityu.edu.hk/en/publications/tagecho-empowering-ambient-lora-backscatter-tags-with-adaptive-mo/,"publisher, author repository or institutional abstract",104
+taprint,10.1145/3300061.3300124,/papers/2019-taprint.pdf,local paper abstract/introduction,86
+trajectory-consistency,10.1109/tmc.2026.3664639,https://doi.org/10.1109/tmc.2026.3664639,scope/context only; no new numerical or detailed evaluation claims,89
+uav-mmwave,10.1109/mwc.2018.1800216,/papers/2019-uav-mmwave.pdf,local paper abstract/introduction,80
+uav-spectrum,10.1109/mnet.2018.1700464,/papers/2018-uav-spectrum.pdf,local paper abstract/introduction,77
+vi-liquid,10.1145/3447993.3448621,/papers/2021-vi-liquid.pdf,local paper abstract/introduction,73
+virtual-keyboard-demo,10.1145/3131672.3136984,/papers/2017-virtual-keyboard-demo.pdf,local paper abstract/introduction,75
+vitype,10.1109/sahcn.2018.8397098,/papers/2018-vitype.pdf,local paper abstract/introduction,83
+vlc-hardware,10.1109/access.2019.2927054,/papers/2019-vlc-hardware.pdf,local paper abstract/introduction,78
+vniscan-fruit,10.1109/tmc.2026.3667385,https://researchportal.hkust.edu.hk/en/publications/vniscan-fruit-a-non-invasive-visible-near-infrared-sensing-system/,"publisher, author repository or institutional abstract",91
+wi-fire,10.1109/icc.2017.7997406,/papers/2017-wi-fire.pdf,local paper abstract/introduction,83
+wi-humidity,10.1007/978-3-319-52015-5_55,/papers/2017-wi-humidity.pdf,local paper abstract/introduction,80
+x509-survey,10.1109/comst.2023.3323640,/papers/2023-x509-survey.pdf,local paper abstract/introduction,89

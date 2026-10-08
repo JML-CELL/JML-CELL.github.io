@@ -1,0 +1,20 @@
+{
+  "beyond-vision.png": {
+    "source": "https://www.ijcai.org/proceedings/2026/0833.pdf",
+    "figure": "Figure 2, PDF page 2; original PDF region rendered without changing the diagram"
+  },
+  "meetsumaid.png": {
+    "source": "https://repository.essex.ac.uk/42843/1/tmc26-MeetSumAid-A%20Mobile%20Human-AI%20Collaborative.pdf",
+    "figure": "Embedded overview image on PDF page 3"
+  },
+  "senlora.jpg": {
+    "source": "https://huangyongzhi.com.cn/data/optimized/SenLoRa.jpg",
+    "context": "SenLoRa entry on the coauthor homepage"
+  },
+  "pit.jpg": "Original project: content/post/25-03-MobiSys25/featured.jpg",
+  "lit.png": "Original project: content/post/23-10-Mobicom/image.png",
+  "lisee.png": "Original project: content/post/22-9-Ubicomp/image.png",
+  "chameleon.png": "Original project: content/post/24-11-ISMIR/image.png; the directory name was misleading",
+  "music-reasoning.png": "Original project: content/post/24-12-ICPADS/image.png; the directory name was misleading",
+  "iov-resource-allocation.png": "Original project: content/post/24-12-UIC/image.png"
+}

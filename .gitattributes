@@ -1,0 +1,2 @@
+# Preserve downloaded papers byte-for-byte across Windows and Linux checkouts.
+*.pdf binary

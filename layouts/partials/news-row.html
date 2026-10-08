@@ -1,0 +1,1 @@
+<article class="news-row"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ if eq site.Language.Lang "zh" }}{{ .Date.Format "2006年1月" }}{{ else }}{{ .Date.Format "Jan 2006" }}{{ end }}</time><div><span class="news-type">{{ partial "t.html" (.Params.news_type | default "Publication") }}</span><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></div></article>

@@ -1,0 +1,8 @@
+{{- $role := replace . "_" " · " -}}
+{{- if eq site.Language.Lang "zh" -}}
+  {{- $role = replace $role "Grad Student" "硕士研究生" -}}
+  {{- $role = replace $role "Ph.D. Student" "博士研究生" -}}
+  {{- $role = replace $role "PhD Student" "博士研究生" -}}
+  {{- $role = replace $role "Professor" "教授" -}}
+{{- end -}}
+{{- return $role -}}

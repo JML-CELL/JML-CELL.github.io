@@ -1,0 +1,23 @@
+{{- $person := .person -}}
+{{- $avatar := $person.Resources.GetMatch "avatar.*" -}}
+{{- $placeholder := false -}}
+{{- with $person.File -}}
+  {{- $directory := replace .Dir "\\" "/" -}}
+  {{- with index site.Data.team_avatars $directory -}}
+    {{- $avatar = resources.Get . -}}
+    {{- $placeholder = true -}}
+  {{- end -}}
+{{- end -}}
+{{- with $avatar -}}
+  {{- $image := . -}}
+  {{- if ne .MediaType.SubType "svg" -}}
+    {{- $image = .Fill "480x480 Center webp q85" -}}
+  {{- end -}}
+  {{- $alt := printf "Portrait of %s" $person.Title -}}
+  {{- if $placeholder -}}{{- $alt = printf "Default avatar for %s" $person.Title -}}{{- end -}}
+  {{- if eq site.Language.Lang "zh" -}}
+    {{- $alt = printf "%s 的照片" $person.Title -}}
+    {{- if $placeholder -}}{{- $alt = printf "%s 的默认头像" $person.Title -}}{{- end -}}
+  {{- end -}}
+  <img src="{{ $image.RelPermalink }}" width="480" height="480" loading="lazy" alt="{{ $alt }}"{{ if $placeholder }} class="default-avatar"{{ end }}>
+{{- end -}}

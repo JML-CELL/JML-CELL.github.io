@@ -1,11 +1,4 @@
----
-title: Latest News
-
-# Listing view
-view: compact
-
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
----
+{
+  "title": "News",
+  "description": "Research and publication updates from Lu Wang at Shenzhen University."
+}
